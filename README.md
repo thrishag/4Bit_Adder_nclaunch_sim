@@ -62,6 +62,7 @@ Developed by: Register Number*/
 ![image](https://github.com/user-attachments/assets/f7b812c3-8d8f-4748-b9d2-637564282b85)
 
 
+
 ## Functional Simulation: 
 
 	Invoke the cadence environment by type the below commands 
@@ -188,8 +189,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 ![image](https://github.com/user-attachments/assets/7cdf65a1-71fd-427e-8277-1ccf3eedcb2e)
 
 
+
+
 ### Fig 12: Simulation Waveform Window
 ![image](https://github.com/user-attachments/assets/36eb2d4e-cf3b-4ee0-b6a1-3ea7b078755b)
+
+
+
 
 
 ### Result:
