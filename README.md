@@ -3,9 +3,9 @@
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
 
- Write Verilog Code
+1.Write Verilog Code
 
- Verify the Functionality using Test-bench.
+2.Verify the Functionality using Test-bench.
 
 ## Tool Required: 
 Functional Simulation: nclaunch Simulator (nclaunch) 
