@@ -59,6 +59,8 @@ Note : File name should be with HDL Extension
 
 */Program to design 4 bit adder by instantiating 1 bit Full adder.also add test bench program */
 Developed by: Register Number*/
+![image](https://github.com/user-attachments/assets/f7b812c3-8d8f-4748-b9d2-637564282b85)
+
 
 ## Functional Simulation: 
 
