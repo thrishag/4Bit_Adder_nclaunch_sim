@@ -15,9 +15,11 @@ To construct a 4-bit adder, need to chain together four 1-bit full adders. Each 
 
 To design a 1-bit full adder, the first step is to create a truth table that represents all possible combinations of the inputs (A, B, and CIN) and the corresponding outputs (Sum(S) and COUT).
 
+
 ![image](https://github.com/user-attachments/assets/716a26b6-a449-42e0-9e2d-cdbaa4b291b9)
 
 Here’s the truth table for a 1-bit full adder:
+
 
 ![tt](https://github.com/user-attachments/assets/0b3ab24f-1d7e-4a01-80ce-5e7406f4082b)
 
@@ -35,9 +37,11 @@ Where ⊕ represents XOR.
    
 COUT=(A&B) | (CIN&(A^B))
 
+
 ![image](https://github.com/user-attachments/assets/7d6fa554-2614-4f19-aa68-65c9e6153caa)
 
 ### Fig 2:Diagram of 4 Bit Adder
+
 
 ## Creating Source Codes 
 
@@ -59,8 +63,9 @@ Note : File name should be with HDL Extension
 
 */Program to design 4 bit adder by instantiating 1 bit Full adder.also add test bench program */
 Developed by: Register Number*/
-![image](https://github.com/user-attachments/assets/f7b812c3-8d8f-4748-b9d2-637564282b85)
 
+
+![image](https://github.com/user-attachments/assets/f7b812c3-8d8f-4748-b9d2-637564282b85)
 
 
 ## Functional Simulation: 
@@ -74,6 +79,8 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+
+
 ![image](https://github.com/user-attachments/assets/9126002e-c206-4d28-9779-a8cae8c1d673)
 
 
@@ -88,6 +95,7 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+
 ![image](https://github.com/user-attachments/assets/679b9fc6-41f4-4247-90d1-a0cf8c220d28)
 
 
@@ -96,6 +104,7 @@ or
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+
 ![image](https://github.com/user-attachments/assets/abbc3293-9e63-4ba6-80b7-d447e1577798)
 
 
@@ -109,6 +118,7 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
+
 ![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 
 ### Fig 6: Selection of Don’t include any libraries
@@ -120,6 +130,8 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+
+
 ![image](https://github.com/user-attachments/assets/c3fab711-0118-46c5-aa0a-8f73cb2b1bae)
 
 
@@ -141,6 +153,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+
 ![image](https://github.com/user-attachments/assets/abd6cba4-542a-4b0d-8d9c-b9bbe5abb09e)
 
 
@@ -168,6 +182,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
+
+
 ![image](https://github.com/user-attachments/assets/316b1e11-3e42-475f-b8f4-fa3bc7081e23)
 
 
@@ -182,16 +198,22 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
+
+
 ![image](https://github.com/user-attachments/assets/4127f644-a3fe-4936-b75d-4e86bef0978e)
 
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+
+
 ![image](https://github.com/user-attachments/assets/7cdf65a1-71fd-427e-8277-1ccf3eedcb2e)
 
 
 
 
 ### Fig 12: Simulation Waveform Window
+
+
 ![image](https://github.com/user-attachments/assets/36eb2d4e-cf3b-4ee0-b6a1-3ea7b078755b)
 
 
