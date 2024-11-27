@@ -1,5 +1,5 @@
 # Exp-1
-# 4 Bit Adder functionality verification
+# 4 Bit Adder-Write Verilog Code and Verify the Functionality using Test-bench(Use Frontend tool - nclaunch in Cadence)
 
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
