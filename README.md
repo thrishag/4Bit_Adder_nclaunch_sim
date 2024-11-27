@@ -1,12 +1,7 @@
-# Exp-1
-# 4 Bit Adder-Write Verilog Code and Verify the Functionality using Test-bench(Use Frontend tool - nclaunch in Cadence)
+# Ex No: 01  - Design-of-bit-full-adder-using-nclaunch-Simulation-in-Cadence-Software
 
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
-
- Write Verilog Code
-
- Verify the Functionality using Test-bench.
 
 ## Tool Required: 
 Functional Simulation: nclaunch Simulator (nclaunch) 
